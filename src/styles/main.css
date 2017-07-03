@@ -7,7 +7,7 @@
 
 body {
     padding: 0;
-    font-family: "Gill Sans MT", "Gill Sans", Helvetica, Arial, sans-serif
+    font-family: Lato, Helvetica, Arial, sans-serif
 }
 
 .footer,
@@ -29,6 +29,7 @@ body {
 }
 
 .footer {
+    margin-top: 2em;
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5
@@ -49,20 +50,24 @@ body {
     }
 }
 
-.navbar-brand {
-    color: transparent;
-    background-image: url(../images/IrvingBahai.org.png);
+.logo {
+    background-image: url('../images/9pointedstar_TZH_small.png');
+    background-repeat: no-repeat;
     text-align: left;
-    height: 87px;
-    width: 300px;
-    text-indent: -100em
+    min-height: 90px;
+    padding-left: 100px;
+    padding-top: 0.5em;
+    font-size: 2.8em;
+    margin-bottom: 0.25em;
+    color: rgb(114, 135, 5);
 }
-
-.banner img {
-    width: 100%;
-    height: auto
+.quote {
+    padding-top: 1em;
+    font-size: 1.2em;
 }
-
+.quote p {
+    margin-bottom: 0;
+}
 li,
 p {
     font-size: 1.2em
@@ -82,4 +87,21 @@ p {
     -webkit-column-gap: 1em; /* Chrome, Safari, Opera */
     -moz-column-gap: 1em; /* Firefox */
     column-gap: 1em;    
+}
+
+.carousel-inner img {
+    max-height: 399px;
+}
+
+.bicentenary {
+    font-family: 'Rouge Script', cursive;
+    font-size: 4em;
+    font-style: italic;
+}
+.invites {
+    font-size: 1.5em;
+}
+
+.bg-info {
+    padding: 1em;
 }
